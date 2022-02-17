@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Chalk-Regular";
+    src: url("layouts/Chalk-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Chalk-Regular";
+}
+
+.main-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .text-container {
+    position: absolute;
+    margin-inline: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.container .text-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 7vw;
+
+}
+
+.container .text-container span {
+    width: 40vw;
+    height: .8vh;
+    background: white;
+    margin-inline: auto;
+    margin-top: .2vh;
+    margin-bottom: 5vh;
+
+}
+
+.container .text-container h3 {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 4vh;
+}
+
+.container .text-container .btndiv {
+    display: flex;
+    margin-bottom: 2vh;
+    justify-content: center;
+}
+
+
+
+
+.container .text-container .btndiv .btn {
+    background: none;
+    color: white;
+    border: none;
+    font-family: "Chalk-Regular";
+    font-size: 3.5vw;
+    cursor: pointer;
+    /* margin-right: 2em; */
+}
+
+.container .text-container .btndiv .btn:hover {
+    color: gray;
+}
+
+.container .text-container .btndiv .btn:focus {
+    color: yellow;
+}
